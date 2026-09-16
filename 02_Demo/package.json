@@ -1,0 +1,13 @@
+{
+  "name": "eventlens-research-agent-demo",
+  "version": "3.0.0",
+  "private": true,
+  "description": "EventLens bilingual material public-company event impact analysis Agent Demo",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node tests/package_check.js && node tests/smoke.js && node tests/api_contract.js && node tests/live_preflight_stub.js",
+    "test:ui": "python tests/ui_test.py",
+    "check:live": "node scripts/check_live.js"
+  },
+  "engines": {"node": ">=18"}
+}

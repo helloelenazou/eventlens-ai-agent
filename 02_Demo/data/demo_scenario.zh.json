@@ -1,0 +1,21 @@
+{
+  "scenario_id": "DEMO-CATL-2025H1",
+  "data_status": "synthetic_for_demo",
+  "event": "宁德时代发布2025年半年报：营收同比下降12%，但海外业务收入占比从18%提升至32%。请判断这件事对基本面、估值和持仓逻辑的影响。",
+  "portfolio_context": "宁德时代3.2%，科达利2.1%，恩捷股份1.4%，天赐材料0.9%。",
+  "illustrative_assumptions": {
+    "prior_revenue_billion_cny": 1000,
+    "current_revenue_billion_cny": 880,
+    "prior_overseas_share": 0.18,
+    "current_overseas_share": 0.32
+  },
+  "derived_demo_math": {
+    "prior_overseas_revenue_billion_cny": 180,
+    "current_overseas_revenue_billion_cny": 281.6,
+    "overseas_growth_pct": 56.44,
+    "prior_domestic_revenue_billion_cny": 820,
+    "current_domestic_revenue_billion_cny": 598.4,
+    "domestic_growth_pct": -27.02
+  },
+  "disclaimer": "以上数值用于离线交互演示，不应被理解为宁德时代真实披露或投资建议。真实 LLM 模式应通过公开来源检索并逐条引用。"
+}

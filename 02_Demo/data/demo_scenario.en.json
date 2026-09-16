@@ -1,0 +1,21 @@
+{
+  "scenario_id": "DEMO-CATL-2025H1",
+  "data_status": "synthetic_for_demo",
+  "event": "CATL releases its 2025 interim report: revenue is down 12% year over year, while overseas revenue share rises from 18% to 32%. Assess the implications for fundamentals, valuation, and the portfolio thesis.",
+  "portfolio_context": "CATL 3.2%, Kedali 2.1%, SEMCORP 1.4%, Tinci Materials 0.9%.",
+  "illustrative_assumptions": {
+    "prior_revenue_billion_cny": 1000,
+    "current_revenue_billion_cny": 880,
+    "prior_overseas_share": 0.18,
+    "current_overseas_share": 0.32
+  },
+  "derived_demo_math": {
+    "prior_overseas_revenue_billion_cny": 180,
+    "current_overseas_revenue_billion_cny": 281.6,
+    "overseas_growth_pct": 56.44,
+    "prior_domestic_revenue_billion_cny": 820,
+    "current_domestic_revenue_billion_cny": 598.4,
+    "domestic_growth_pct": -27.02
+  },
+  "disclaimer": "All figures in this file are synthetic values for offline product demonstration only. They are not actual CATL disclosures or investment advice. Real LLM mode should retrieve public evidence and cite it claim by claim."
+}

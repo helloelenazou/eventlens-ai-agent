@@ -1,0 +1,11 @@
+{
+  "portfolio_name": "Demo Portfolio",
+  "data_status": "synthetic_for_demo",
+  "positions": [
+    {"security":"宁德时代","ticker":"300750.SZ","weight_pct":3.2,"role":"event_subject"},
+    {"security":"科达利","ticker":"002850.SZ","weight_pct":2.1,"role":"upstream_downstream_example"},
+    {"security":"恩捷股份","ticker":"002812.SZ","weight_pct":1.4,"role":"upstream_downstream_example"},
+    {"security":"天赐材料","ticker":"002709.SZ","weight_pct":0.9,"role":"upstream_downstream_example"}
+  ],
+  "disclaimer": "仅用于产品 Demo，非任何真实基金持仓。"
+}
